@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MVC_BasicTutorials.Models.Student>
+@{
+    ViewBag.Title = "HTMLHelpers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>HTMLHelpers</h2>
+
+<p>
+    @Html.ActionLink("List students","Index")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th></th>
+    </tr>
+</table>
