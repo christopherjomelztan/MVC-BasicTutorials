@@ -8,7 +8,7 @@ namespace MVC_BasicTutorials.Controllers
 {
     public class HomeController : Controller
     {
-        
+        //Test comment
         public ActionResult Index()
         {
             return View();
